@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="start-page">
+      <div class="logos">
+        <img
+          class="computer-pic"
+          id="pic"
+          src="img/computer.png"
+          alt="computer"
+        />
+        <img class="human-pic" id="pic" src="img/user.png" alt="user" />
+      </div>
+      <h1 class="against">Play against?</h1>
+    </div>
+    <div class="second-page">
+      <div class="container">
+        <div data-index="0" class="box"></div>
+        <div data-index="1" class="box"></div>
+        <div data-index="2" class="box"></div>
+        <div data-index="3" class="box"></div>
+        <div data-index="4" class="box"></div>
+        <div data-index="5" class="box"></div>
+        <div data-index="6" class="box"></div>
+        <div data-index="7" class="box"></div>
+        <div data-index="8" class="box"></div>
+      </div>
+      <div id="status">Play Now</div>
+      <div id="counter">
+        winners:
+        <table class="winTable">
+          <tr>
+            <th>X</th>
+            <th>O</th>
+            <th>Draw</th>
+          </tr>
+          <tr>
+            <td class="x-win">0</td>
+            <td class="o-win">0</td>
+            <td class="draw">0</td>
+          </tr>
+        </table>
+        <button id="restart">Restart</button>
+      </div>
+      <div class="back">
+        <img src="img/back.png" alt="back" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
